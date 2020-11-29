@@ -128,7 +128,7 @@ body{
     display: flex;
     overflow: hidden;
     color: white;
-    height: 80%;
+    height: 85%;
 }
 #imgAside{
     height: 20px;
@@ -136,6 +136,7 @@ body{
     top: 30%;
 }
 .afterButton{
+    height: 80%;
     text-align: center;
     background-color: #505d61;
     border-radius: 6px;
@@ -211,7 +212,7 @@ body{
     color: brown;
 }
 @media (max-width: 920px){
-    #aside{
+    .afterButton{
     display: flex;
     overflow: hidden;
     color: white;
