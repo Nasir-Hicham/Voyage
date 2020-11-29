@@ -128,7 +128,7 @@ body{
     display: flex;
     overflow: hidden;
     color: white;
-    height: 85%;
+    height: 92%;
 }
 #imgAside{
     height: 20px;
@@ -213,9 +213,6 @@ body{
 }
 @media (max-width: 920px){
     .afterButton{
-    display: flex;
-    overflow: hidden;
-    color: white;
     height: 100%;
 }
 }
