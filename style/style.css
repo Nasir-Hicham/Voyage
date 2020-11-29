@@ -210,4 +210,11 @@ body{
     font-size: 25px;
     color: brown;
 }
-
+@media (max-width: 920px){
+    #aside{
+    display: flex;
+    overflow: hidden;
+    color: white;
+    height: 100%;
+}
+}
