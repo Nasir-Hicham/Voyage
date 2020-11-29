@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkcyan;
+}
+#bloc_page{
+    width: 950px;
+    display: block;
+    margin: auto;
+}
+#entete{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.right img{
+    float: left;
+    margin-right: 15px;
+}
+@font-face{
+    font-family: 'polices';
+    src: url('./polices/ballpark.ttf');
+}
+.right h1{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: 'polices';
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+}
+.list ul li a{
+    padding-left: 10px;
+    color: black;
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+.list ul li a.active{
+    color: brown;
+    padding-left: 0px;
+    border-bottom: 2px solid brown;
+}
+.list ul li a:hover{
+    color: brown;
+}
+#special{
+    margin-bottom: 20px;
+}
+.separateur{
+    width: 100%;
+    height: 4px;
+    margin-bottom: 0px;
+}
+.icoContainer{
+    text-align: center;
+}
+.IcoTop{
+    margin-top: -8px;
+}
+#baniere{
+    background-color: black;
+}
+#desc_baniere{
+    width: 100%;
+    background-color: black;
+    color: #efefee;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+#desc_baniere p{
+    margin-top: 7px;
+}
+#desc_baniere a{
+    background-color: rgba(167, 26, 26, 0.863);
+    border-radius: 6%;
+    color: white;
+    padding: 5px 10px;
+    transition: 0.5s all ease-in-out;
+}
+#desc_baniere a:hover{
+    color: rgba(167, 26, 26, 0.863);
+    background-color: white;
+}
+#corps{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+#section{
+    width: 2200px;
+    overflow: hidden;
+}
+#section img{
+    float: left;
+    margin-right: 10px;
+}
+#section h2{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#article p{
+    margin-bottom: 15px;
+    text-align: justify;
+} 
+#article p span{
+    color: brown;
+    border-bottom: 1px solid brown;
+}
+#aside{
+    display: flex;
+    overflow: hidden;
+    color: white;
+    height: 85%;
+}
+#imgAside{
+    height: 20px;
+    position: relative;
+    top: 30%;
+}
+.afterButton{
+    text-align: center;
+    background-color: #505d61;
+    border-radius: 6px;
+}
+.afterButton h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.afterButton img{
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.afterButton img:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.afterButton .par{
+    text-align: justify;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+.afterButton p:last-of-type{
+    margin-top: 30px;
+}
+#innerFooter{
+    width: 950px;
+    margin: auto;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#innerFooter #tweet{
+    float: left;
+    width: 30%;
+}
+#tweet p{
+    padding-bottom: 20px;
+}
+#innerFooter #galerie{
+    float: left;
+    margin-right: 20px;
+}
+#galerie img{
+    border: 1px solid black;
+}
+#amis .first{
+    float: left;
+    margin-right: 90px;
+}
+#amis ul{
+    list-style-type: none;
+}
+#amis ul li a{
+    color: brown;
+}
+#tweet h1, #galerie h1, #amis h1{
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#outsideFooter{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+#outsideFooter span{
+    font-family: 'polices';
+    font-size: 25px;
+    color: brown;
+}
+
